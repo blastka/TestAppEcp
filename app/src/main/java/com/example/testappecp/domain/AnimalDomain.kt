@@ -3,6 +3,7 @@ package com.example.testappecp.domain
 import com.example.testappecp.data.AnimalCharacteristics
 import com.example.testappecp.data.AnimalCloud
 import com.example.testappecp.data.AnimalTaxonomy
+import com.example.testappecp.presentation.AnimalsUi
 
 interface AnimalDomain {
 
@@ -26,5 +27,4 @@ interface AnimalDomain {
             taxonomy: AnimalTaxonomy
         ): T
     }
-
 }
